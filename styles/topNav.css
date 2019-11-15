@@ -1,0 +1,53 @@
+
+/* Top-Nav */
+#topNavContainer {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 60;
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	background-color: rgb(252,252,252);
+	box-shadow: 0px 5px  5px rgb(230,230,230);
+}
+.topNavA {
+	display: block;
+	float: left;
+	padding: 18px 18px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: rgb(100,100,100);
+}
+.topNav-active {
+	color: green;
+}
+.topNavA:hover {
+	background-color: rgb(235,235,235);
+}
+#homeButton {
+	margin: 0px 15px -2px 30px;
+}
+#homeButton:hover {
+	background-color: rgb(252,252,252);
+}
+
+/* Side-Nav -- Not used on home page, only subdomains*/
+
+
+/* Content */
+.contentContainer {
+	display: block;
+	position: relative;
+	width: 800px;
+	margin: 80px 15px 10px 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.contentHeader-Container {
+	font-size: 30px;
+}
+
+
+/* Footer */
