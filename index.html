@@ -3,15 +3,20 @@
 <html>
 	<head>
 		<title>Neil Powers - Home</title>
-    <link rel="icon" href="images/favicon.png">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik|Ubuntu" rel="stylesheet"/>
-		<link rel="stylesheet" type="text/css" href="styles/index.css"/>
+		<link rel="icon" href="images/favicon.png">
+
+		<link rel="stylesheet" type="text/css" href="styles/common.css"/>
 		<link rel="stylesheet" type="text/css" href="styles/topNav.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/index.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik|Ubuntu|Lora" rel="stylesheet"/>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet"> -->
+
+		<script defer src="scripts/sub_header_random_string.js"></script>
 
 	</head>
 	<body>
 		<!-- Top navigation bar -->
-		<header class="page-header">
+		<header>
 			<nav class="nav" id="topNavContainer">
 				<a class="nav-menu active" href="index.html" style="float: left;">Home</a>
 				<div class="nav-containter">
@@ -19,19 +24,17 @@
 					<a class="nav-menu" href="pages/experience.html">Experience</a>
 					<!-- <a class="nav-menu" href="pages/hobbies.html">Hobbies</a> -->
 					<a class="nav-menu" href="pages/projects.html">Projects</a>
-					<a class="nav-menu" href="about.html">About Me</a>
+					<a class="nav-menu" href="pages/about.html">About Me</a>
 				</div>
 			</nav>
 		</header>
 		<!-- Side-Nav content -->
 
 		<!-- Main content -->
-		<div class="contentContainer">
-			<div class="contentHeader-Container">
-				<p class="contentHeader-Head">Neil's Portfolio</p>
-			</div>
-			<div class="contentIntro-Container">
-				<p class="intro">confirm: page is "index.html" </p>
+		<div class="content_container">
+			<div class="page_header">
+				<h1 class="main_header">Neil Powers</h1>
+				<p id="sub_header" class="sub_header">filler</p>
 			</div>
 		</div>
 	</body>
