@@ -8,6 +8,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: 'Roboto', sans-serif;
 }
 
+.content_container {
+	align-self: center;
+	margin: 0	3rem;
+	max-width: 1248px !important;
+}
+
 .page_header {
   text-align: center;
   padding: 4rem 0 4rem 0;
@@ -21,6 +27,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .sub_header {
   font-family: 'Lora', serif;
   font-style: italic;
+}
+
+.break {
+	width: 100%;
+	background-color: #ededed;
+	content: "";
+	display: block;
+	height: 1px;
+	margin-top: 1 rem;
+	margin-bottom: 1 rem;
+	clear: both;
 }
 
 /* .main_header {

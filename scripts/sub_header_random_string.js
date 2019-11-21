@@ -4,7 +4,9 @@ function getRandomString() {
   let s = [ "Oddly enough, I keep track of the news.",
   "3.14159265358979323846264338327950288...",
   "At one point, I memorized 432 digits of pi.",
-  "I like pie." ];
+  "I like pie.",
+  "I got the power!",
+  "Powers for president!"];
 
   var x = Math.floor(Math.random() * s.length);
 
